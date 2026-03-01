@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="bg">
 <head>
-    <title>Моят нов сайт</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персоналният сайт на jit183260-spec</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; }
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        h1 {
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        .social-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #764ba2;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .social-link:hover {
+            transform: scale(1.05);
+            background: #5a3782;
+        }
     </style>
 </head>
 <body>
-    <h1>Здравей! Това е моят първи сайт в GitHub.</h1>
-    <p>Сайтът на jit183260-spec вече е онлайн!</p>
+    <div class="container">
+        <h1>Здравей! 👋</h1>
+        <p>Аз съм <strong>jit183260-spec</strong> и това е моят нов дом в интернет, създаден с GitHub Pages.</p>
+        <a href="https://github.com/jit183260-spec" class="social-link">Виж профила ми</a>
+    </div>
 </body>
 </html>
